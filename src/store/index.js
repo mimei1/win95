@@ -188,6 +188,25 @@ export default new Vuex.Store({
           iconImage: "webos.png",
           altText: "Web OS",
           fullscreen: true
+      },
+	  {
+        windowId: "Photodiv", 
+          windowState: "close",
+          displayName: "CosPlay",
+          windowComponent: 'Photodiv',
+          windowContent: '',
+          windowContentPadding: {
+            top: '0',
+            right: '0',
+            bottom: '0',
+            left: '0'
+          },
+          position: "absolute",
+          positionX: "6vw",
+          positionY: "12vh",
+          iconImage: "mail.png",
+          altText: "Photodiv",
+          fullscreen: false
       }
       // register your new windows here
     ],
