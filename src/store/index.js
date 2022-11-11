@@ -18,25 +18,6 @@ export default new Vuex.Store({
     zIndex: 2, 
 
     windows: [
-	  {
-	       windowId: "Photodiv", 
-	       windowState: "close",
-	       displayName: "写真归档",
-	       windowComponent: 'window',
-	       windowContent: 'Photodiv',
-	       windowContentPadding: {
-	           top: null,
-	           right: null,
-	           bottom: null,
-	           left: null
-	       },
-	       position: "absolute",
-	       positionX: "10vw",
-	       positionY: "10vh",
-	       iconImage: "placeholder.png",
-	       altText: "Placeholder Icon",
-	       fullscreen: false
-		},
       {
         windowId: "BiographyWindow", // Unique ID
         windowState: "close", // Window State [open, close, minimize]
@@ -208,7 +189,25 @@ export default new Vuex.Store({
           altText: "Web OS",
           fullscreen: true
       }
-      // register your new windows here
+      {
+           windowId: "Photodiv", 
+           windowState: "close",
+           displayName: "写真归档",
+           windowComponent: 'window',
+           windowContent: 'Photodiv',
+           windowContentPadding: {
+               top: null,
+               right: null,
+               bottom: null,
+               left: null
+           },
+           position: "absolute",
+           positionX: "10vw",
+           positionY: "10vh",
+           iconImage: "placeholder.png",
+           altText: "Placeholder Icon",
+           fullscreen: false
+      	},
     ],
     mailContent: '',
     mailSender: '',
