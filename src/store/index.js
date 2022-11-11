@@ -188,7 +188,7 @@ export default new Vuex.Store({
           iconImage: "webos.png",
           altText: "Web OS",
           fullscreen: true
-      }
+      },
       {
            windowId: "Photodiv", 
            windowState: "close",
