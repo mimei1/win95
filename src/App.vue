@@ -120,6 +120,7 @@ import Webos from './components/template/WebOS'
 import Opensource from './components/views/Opensource'
 import Wwdc2021 from './components/views/Wwdc2021'
 import Wwdc2022 from './components/views/Wwdc2022'
+import Photodiv from './components/views/Photodiv'
 export default {
     name: 'App',
     data: function () {
@@ -142,7 +143,8 @@ export default {
         Webos,
         Opensource,
         Wwdc2021,
-        Wwdc2022
+        Wwdc2022,
+		Photodiv,
         // TopNavbar,
     },
     computed: {
